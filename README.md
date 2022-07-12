@@ -10,4 +10,6 @@ Before first run (or during first run) make sure to set up proxy setting in WxTo
 
 Copy the ```wxtoproxy.exe``` file to your WxToImg directory. Double-click and enjoy. Updating Kepplers should work fine, you can see any input and application calls in the terminal window. Program should automatically close when you close the app. Closing terminal window will most likely stop updating to work :)
 
+If you are running for some reason 32 bit system (windows 7) there is a 32 bit compiled version as well: ```wxtoproxy_win7_32.exe```
+
 Credit for proxy code: [yowu](https://gist.github.com/yowu/f7dc34bd4736a65ff28d)
