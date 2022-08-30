@@ -13,3 +13,12 @@ Copy the ```wxtoproxy.exe``` file to your WxToImg directory. Double-click and en
 If you are running for some reason 32 bit system (windows 7) there is a 32 bit compiled version as well: ```wxtoproxy_win7_32.exe```
 
 Credit for proxy code: [yowu](https://gist.github.com/yowu/f7dc34bd4736a65ff28d)
+
+
+## Linux
+
+For Linux users a simple "wget" command will do the trick (sudo might be required)
+
+  wget -O /usr/local/lib/wx/tle/weather.txt http://celestrak.org/NORAD/elements/weather.txt
+  
+This command will replace the expired weather.txt file. 
